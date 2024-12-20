@@ -1,0 +1,16 @@
+{
+    "name": "Rust Dev Container",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "postCreateCommand": "bash ./install_rust.sh",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "rust-lang.rust-analyzer",
+          "matklad.rust-analyzer"
+        ]
+      }
+    }
+  }
+  
